@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th id="demo1"></th>
+                <th id="demo2"></th>
+                <th id="demo3"></th>
+            </tr>
+            <tr>
+                <td id="td1"></td>
+                <td id="td2"></td>
+                <td id="td3"></td>
+            </tr>
+            <tr>
+                <td id="td11"></td>
+                <td id="td22"></td>
+                <td id="td33"></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script>
+        let array = ["company","contact","country"]
+
+        let array2 = ["birevim","birevim.com","türkiye"]
+
+        let array3 = ["amazon","amazon.com","amerika"]
+
+        document.getElementById('demo1').innerHTML = array[0]
+        document.getElementById('demo2').innerHTML = array[1]
+        document.getElementById('demo3').innerHTML = array[2]
+        
+        
+        document.getElementById('td1').innerHTML = array2[0]
+        document.getElementById('td2').innerHTML = array2[1]
+        document.getElementById('td3').innerHTML = array2[2]
+
+        document.getElementById('td11').innerHTML = array3[0]
+        document.getElementById('td22').innerHTML = array3[1]
+        document.getElementById('td33').innerHTML = array3[2]
+        
+    </script>
+</body>
+</html>

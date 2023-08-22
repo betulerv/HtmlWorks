@@ -1,0 +1,35 @@
+.bgBlue{
+    background-color: orange;
+
+}
+/*.bgBlue1{
+    background-color: gold;
+}
+.bgBlue2 {
+    background-color: lightsalmon;
+}
+.bgBlue3 {
+    background-color: saddlebrown;
+}
+.bgBlue4 {
+background-color: slateblue;
+}*/
+
+.grid-container {
+    border: solid black;
+    columns: 4;
+    width: 200px;
+    height: 100%;
+    display: inline-grid;
+    grid: 6em 6em/ 10em 6em 6em 6em;
+}
+
+.size{
+    height: 200px;
+    width: 200px;
+}
+
+.grid-item{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3 ;
+}

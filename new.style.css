@@ -1,0 +1,36 @@
+.grid {
+border: 4px solid black;
+columns: 4;
+height: 100%;
+display: flex;
+}
+
+.size {
+    width: 200px;
+    height: 100%;
+    height: 200px;
+
+
+}
+
+.bgBlue {
+    background-color: aquamarine;
+}
+.bgBlue1 {
+    background-color:cadetblue;
+}
+.bgBlue2 {
+background-color: cornflowerblue;
+}
+.bgBlue3 {
+    background-color: mediumturquoise;
+}
+.bgBlue4 {
+    background-color: crimson;
+}
+
+.grid-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+

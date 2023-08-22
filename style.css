@@ -1,0 +1,53 @@
+th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+table {
+    width: 100%;
+}
+
+#demo1 {
+    background-color: cyan;
+}
+
+#demo2 {
+    background-color: palevioletred;
+}
+
+#demo3 {
+    background-color: brown;
+}
+
+#td1 {
+    background-color: chartreuse;
+}
+
+#td2 {
+    background-color: darkorange;
+}
+
+#td3 {
+    background-color: green;
+}
+
+#td11 {
+    background-color: lightslategray;
+}
+
+#td22 {
+    background-color: yellow;
+}
+
+#td33 {
+    background-color: magenta;
+}
+
+div {
+    background-color: cadetblue ;
+}
+
+body {
+    background-color: cadetblue ;
+}
