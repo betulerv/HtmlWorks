@@ -1,2 +1,2 @@
 # HtmlWorks
-Html course
+Html course sample codes for tutorials.
